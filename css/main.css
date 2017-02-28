@@ -1,0 +1,368 @@
+@charset "UTF-8";
+
+h2
+{
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	letter-spacing: 8px;
+	font-weight: 300;
+	font-size: 40px;
+	padding: 20px;
+
+	text-align: center;
+
+}
+
+@media only screen and (min-width: 640px)
+{
+	h2
+{
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	letter-spacing: 8px;
+	font-weight: 300;
+	font-size: 70px;
+	padding: 20px;
+	width:100%;
+
+	text-align: center;
+}
+}
+.btn {
+	padding-bottom:19px;
+	padding-top: 20px;
+	padding-left: 39px;
+	padding-right: 39px;
+}
+.btn:hover {
+	color: maroon;
+	background-color:	 rgba(32,32,32, 0.3);
+
+}
+p {
+
+	padding: 10px;
+	padding-top: 20px;
+
+}
+p
+{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	color: white;
+	text-align: center;
+}
+a
+{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	letter-spacing: 2px;
+	color: white;
+	text-align: center;
+}
+h3{
+		font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	color: white;
+}
+
+#footer{
+ background-color: 	 #333333;
+ height:200px;
+}
+
+#logo
+{
+	position: absolute;
+	z-index: 10;
+top:70px;
+	left:40%;
+	right:60%;
+}
+
+@media (min-width:1163px){
+	#logo
+	{
+		width:200px;
+		left:45%;
+		top:60px;
+	}
+}
+
+
+.hidden
+{
+	display: none;
+}
+
+.fullWidth
+{
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: initial;
+
+}
+
+
+
+#container
+{
+	overflow: hidden;
+	height:800px;
+}
+ #container2{
+	 overflow: hidden;
+ 	height:650px;
+
+ }
+
+#container3{
+
+background-color: white;
+}
+.home{
+		margin-top: 200px;
+		margin-bottom: 5px;
+}
+.paraTag{
+	padding-bottom:100px;
+}
+.bg {
+position: relative;
+width: 400%;
+}
+.bg img{
+position: absolute;
+  z-index: -1;
+width:400%;
+
+}
+.titleTag {
+	font-family: 'Pacifico', sans-serif;
+	color: white;
+	letter-spacing: 8px;
+	font-weight: 300;
+	font-size: 60px;
+	padding: 20px;
+
+	text-align: center;
+}
+
+@media (min-width: 414px)
+{
+	.titleTag {
+		font-family: 'Pacifico', sans-serif;
+		color: white;
+		letter-spacing: 8px;
+		font-weight: 300;
+		font-size: 80px;
+		padding: 20px;
+
+		text-align: center;
+	}
+	.home{
+			margin-top: 400px;
+			margin-bottom: 5px;
+	}
+
+}
+@media (min-width:600px)
+{
+	.bg img{
+	position: absolute;
+		z-index: -1;
+	width:110%;
+	}
+	.bg {
+	position: relative;
+	width: 110%;
+	}
+}
+@media (min-width: 1025px)
+ {
+
+.whiteBox {
+	background-color: white;
+	border-radius: 10px;
+	margin-left:4%;
+	margin-right:4%;
+	margin-top: 30px;
+}
+}
+.Tourh2{
+	margin-top:70px;
+	font-family: 'Pacifico', sans-serif;
+}
+.Tourh2, .tourP
+{
+	color:#1a1a1a;
+}
+.paraTag{
+	font-family: 'PT Serif', serif;
+ font-size: 25px;
+}
+
+
+#nav{
+background-color:  rgba(32,32,32, 0.2);
+position: absolute;
+  z-index: 10;
+
+}
+@media (min-width: 640px)
+ {
+	#nav ul
+{
+	margin-top: 20px;
+	text-align: center;
+	margin-right:30px;
+
+}
+
+#nav ul li
+{
+	display: inline;
+
+}
+}
+@media (max-width: 950px)
+{
+#nav ul
+{
+	display: none;
+}
+
+#menu
+{
+	display:block;
+	width: 50px;
+	position: absolute;
+	right:10px;
+	top: 15px;
+	z-index: 20;
+}
+}
+
+.line{
+		height:6px;
+		background-color: maroon;
+		width:110px;
+		margin: 0 auto;
+}
+@media (max-width:1024px){
+.whiteBox {
+	background-color: white;
+	border-radius: 10px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top: 30px;
+}
+}
+.whiteBox h3, .whiteBox p {
+	text-align: center;
+		color:#1a1a1a;
+}
+
+#homePage
+{
+	text-align: center;
+
+	background-color: blue;
+}
+#footer{
+margin-top: 20px;
+
+}
+#connect p{
+float: right;
+font-size: 30px;
+margin-right: 80px;
+
+}
+
+.soc {
+	margin-left:10px;
+	margin-right: 10px;
+	float: right;
+	display: inline;
+}
+
+#copywright{
+	text-align: center;
+	font-size: 14px;
+	margin-left: 12%;
+
+}
+.titleTagS {
+	font-family: 'Pacifico', sans-serif;
+	color: white;
+	letter-spacing: 8px;
+	font-weight: 300;
+	font-size: 40px;
+	padding: 20px;
+
+	text-align: center;
+}
+
+#servcontainer{
+	height:500px;
+}
+
+@media (min-width: 414px)
+{
+	.titleTagS {
+		font-family: 'Pacifico', sans-serif;
+		color: white;
+		letter-spacing: 8px;
+		font-weight: 300;
+		font-size: 80px;
+		padding: 20px;
+
+		text-align: center;
+	}
+}
+	.serv{
+		margin-top: 100px;
+	}
+.booktour{
+	font-family: 'Pacifico', sans-serif;
+	color: maroon;
+	letter-spacing: 8px;
+	font-weight: 300;
+	font-size: 80px;
+	padding: 20px;
+	margin-top: 100px;
+}
+.servinfo{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	color: white;
+	font-size: 16px;
+	text-align: center;
+}
+
+.whiteBox2 {
+	margin-left:0px;
+	margin-right:0px;
+	margin-top: 30px;
+
+}
+.whiteBox2 h3, .whiteBox2 p {
+	text-align: center;
+		color:#1a1a1a;
+		font-family: 'Oswald', sans-serif;
+		font-weight: 300;
+}
+.whiteBox2 hr{
+	border-color:maroon;
+}
+#blacktext p{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	text-align: center;
+		color:#1a1a1a;
+}
+#bottom{
+	background-color: lightgrey;
+}
