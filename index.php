@@ -24,6 +24,7 @@
         <ul>
             <li><a class="btn" href="index.php" id="home">Home</a></li>
             <li><a class="btn" href="services.php" id="services">Services</a></li>
+            <li><a class="btn" href="gallery.php" id="services">Gallery</a></li>
             <li><a class="btn" href="index.php" id="events">Our Events</a></li>
             <li><a class="btn" href="contact.php" id="contact">Contact Us</a></li>
         </ul>
