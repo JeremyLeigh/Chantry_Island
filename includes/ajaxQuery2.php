@@ -2,7 +2,7 @@
 
 	function getAll($tbl) {
 		$queryAll = "SELECT * From tbl_img";
-		$runAll = mysqli_query(mysqli_connect("localhost","root","","a3_cooperInfo"), $queryAll);
+		$runAll = mysqli_query(mysqli_connect("localhost","root","","db_gallery"), $queryAll);
 		//echo $runAll;
 		if($runAll){
 			return $runAll;
