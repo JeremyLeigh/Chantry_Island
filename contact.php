@@ -10,6 +10,7 @@
   <link href="https://fonts.googleapis.com/css?family=PT+Serif|Pacifico" rel="stylesheet">
     <link rel="stylesheet" href="css/foundation.css">
     <link href="css/main.css" rel="stylesheet" type="text/css" media="screen">
+    	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDAvQUPi78pfH4Dt-jSO64ztz0us0LxOQ0"></script>
   </head>
 <body>
 
@@ -54,6 +55,9 @@ Canada, N0H 2L0 </p>
 </section>
 </div>
 
+
+<div class="map-wrapper"></div>
+<button id="directions">Directions</button>
 
 
 <section id="bottom" class="row fullWidth">
