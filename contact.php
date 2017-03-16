@@ -57,7 +57,7 @@ Canada, N0H 2L0 </p>
 
 
 <div class="map-wrapper"></div>
-<button id="directions">Directions</button>
+
 
 
 <section id="bottom" class="row fullWidth">
